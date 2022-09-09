@@ -1,0 +1,107 @@
+*{
+    font-weight: 400;
+    line-height: 150%;
+}
+
+.logo{
+    position: absolute;
+    top: 4%;
+}
+
+body{
+    background-color: #E9ECF8;
+}
+
+main{
+    display: flex;
+    margin-left: 80px;
+    margin-bottom: 50px;
+}
+
+.input-txt{
+    margin-top: 15%;
+    margin-left: 5%;
+    margin-bottom: 5.8%;
+    width: 577px;
+    top: 168px;
+    border: 0;
+    background: inherit;
+    outline: none;
+
+    color: #0A3871;
+
+    font-size: 25px;
+}
+
+.input-txt::placeholder{
+    color: #0A3871;
+}
+
+.msj{
+    padding: 5%;
+    position: relative;
+    background-image: url("images/MuñecoyTexto.png");
+    background-repeat: no-repeat;
+    background-position: 50% 40%;
+    background-size: 90%;
+    font-size: 25px;
+
+    margin-left: 45%;
+    margin-top: 3%;
+    border-radius: 6%;
+    
+    color: #0A3871;
+}
+
+.copiar{
+    position: relative;
+    margin-left: 45%;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-radius: 24px;
+    font-size: 20px;
+
+    align-items: center;
+    padding: 2px;
+    gap: 8px;
+
+    width: 330px;
+}
+
+.botones{
+    display: flex;
+    flex-direction: row;
+    margin-top: 20px;
+}
+
+.encriptar{
+    background-color: #0A3871;
+    color: white;
+    border-radius: 24px;
+    font-size: 20px;
+
+    align-items: center;
+    padding: 2px;
+    gap: 8px;
+
+    width: 250px;
+    margin-left: 5%;
+}
+
+.desencriptar{
+    margin-left: 5%;
+    background-color: #D8DFE8;
+    color: #0A3871;
+    border-radius: 24px;
+    font-size: 20px;
+
+    align-items: center;
+    padding: 24px;
+    gap: 8px;
+
+    width: 250px;
+}
+
+.informacion{
+    font-size: 15px;
+}
